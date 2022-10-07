@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khushal website contact us</title>
+    <style>
+        body{
+            background-image: url('website.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header{
+            color: white;
+        }
+        .left{ 
+            position: absolute;
+            left: 1cm;
+            top: 0.2cm;
+            display: inline-block;
+        }
+        .mid{
+            display: block;
+            width: 50%;
+            margin: 12px auto;
+            border: 2px solid burlywood;
+            border-radius: 2cm;
+        }
+        .right{ 
+            position: absolute;
+            right: 1cm;
+            top: 1cm;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            font-size: 0.75cm;
+            padding:0cm 1cm;
+        }
+        .navbar li a:hover,.navbar li a:hover{
+            color: black;
+        }
+        .img{
+            text-align: center;
+            padding: 0.25cm;
+        }
+        .xyz{
+            background-color: gray;
+            color: white;
+            font-size: 0.5cm;
+        }
+        .xyz:hover,.xyz:hover{
+            color: black;
+        }
+        .section{
+            position: absolute;
+            left: 17.5cm;
+            top: 4cm;
+            display: block;   
+            border: 2px solid burlywood;
+            border-radius: 2cm;
+            padding: 0.5cm 0.5cm;
+        }
+        .section h{
+            color: honeydew;
+            font-size: 2cm;
+        }
+        .section p{
+            color: honeydew;
+            font-size: 0.5cm;
+        }
+        .form{
+            margin: 0.25cm;
+            border-radius: 1cm;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+         <div class="img">
+            <img src="logo.png" width="75px"><br>
+            GYMMM
+         </div>
+        </div> 
+        <div class="mid">
+          <ul class="navbar">
+              <li><a href="website.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div> 
+        <div class="right">
+            <button class="xyz">Log In</button>
+        </div> 
+    </header>
+    <section class="section">
+        <h>CONTACT US</h><hr>
+        <p>Fill the following information to contact us</p>
+        <form action="noaction.php">
+        <div class="form">
+            <input type="text" name="text" placeholder="First Name" size="53">
+        </div>
+        <div class="form">
+            <input type="text" name="text" placeholder="Last Name" size="53">
+        </div>
+        <div class="form">
+            <input type="text" name="text" placeholder="Email" size="53">
+        </div>
+        <div class="form">
+            <input type="text" name="text" placeholder="Phone no" size="53">
+        </div>
+        <div class="form">
+            <textarea rows="10" cols="50" placeholder="Comments"></textarea><br>
+        </div>
+        <div class="form">
+            <input type="submit">
+        </div>
+    </form>
+    </section>
+</body>
+</html>
